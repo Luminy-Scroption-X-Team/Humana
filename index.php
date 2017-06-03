@@ -29,11 +29,11 @@
 					<div class="navbar-collapse collapse">							
 						<div class="menu">
 							<ul class="nav nav-tabs" role="tablist">
-								<li role="presentation"><a href="index.php" class="active">Acceuil</a></li>
-								<li role="presentation"><a href="php/references.php">Références</a></li>
-								<li role="presentation"><a href="php/partenariat_soutient.php">Partenariat et soutient</a></li>								
-								<li role="presentation"><a href="php/services.php">Offre de services</a></li>
-								<li role="presentation"><a href="php/contact.php">Contact</a></li>						
+								<li role="presentation"><a href="index.php" style="color: #1BBD36;">Acceuil</a></li>
+								<li role="presentation" id="ref"><a href="php/references.php">Références</a></li>
+								<li role="presentation" id="partenariat_soutient"><a href="php/partenariat_soutient.php">Partenariat et soutient</a></li>								
+								<li role="presentation" id="services"><a href="php/services.php">Offre de services</a></li>
+								<li role="presentation" id="contact"><a href="php/contact.php">Contact</a></li>						
 							</ul>
 						</div>
 					</div>						
@@ -82,7 +82,6 @@
 
 	<script src="js/jquery-2.1.1.min.js"></script>	
     <script src="js/bootstrap.min.js"></script>
-	<script src="js/functions.js"></script>
 	
 </body>
 </html>

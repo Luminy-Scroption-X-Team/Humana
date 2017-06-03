@@ -7,7 +7,7 @@
 
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 	<link href="../css/style.css" rel="stylesheet" />	
-  </head>		
+  	</head>		
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="navigation">
 				<div class="container">					
@@ -26,11 +26,11 @@
 					<div class="navbar-collapse collapse">							
 						<div class="menu">
 							<ul class="nav nav-tabs" role="tablist">
-								<li role="presentation"><a href="../index.php" class="active">Acceuil</a></li>
-								<li role="presentation"><a href="references.php">Références</a></li>
-								<li role="presentation"><a href="partenariat_soutient.php">Partenariat et soutient</a></li>								
-								<li role="presentation"><a href="services.php">Offre de services</a></li>
-								<li role="presentation"><a href="contact.php">Contact</a></li>						
+								<li role="presentation"><a href="../index.php">Acceuil</a></li>
+								<li role="presentation" id="ref"><a href="references.php">Références</a></li>
+								<li role="presentation" id="partenariat_soutient"><a href="partenariat_soutient.php">Partenariat et soutient</a></li>								
+								<li role="presentation" id="services"><a href="services.php">Offre de services</a></li>
+								<li role="presentation" id="contact"><a href="contact.php">Contact</a></li>						
 							</ul>
 						</div>
 					</div>						
